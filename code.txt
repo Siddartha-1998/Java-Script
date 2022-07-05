@@ -1,0 +1,21 @@
+var arr = []
+var positive = [ ]
+var negative = []
+for(i = 0;i<5;i++){
+    arr.push(-i)
+}
+for(j = 0;j<5;j++){
+     arr.push(j)
+}
+for(k=0;k<=arr.length;k++){
+    if(arr[k]>=1){
+        positive.push(arr[k])
+    }
+    else{
+        if(arr[k]!= undefined)
+        negative.push(arr[k])
+    }
+}
+console.log("p",positive)
+console.log("n",negative)
+
